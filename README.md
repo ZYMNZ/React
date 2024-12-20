@@ -8,4 +8,5 @@ const h1 = <h1>Hello world</h1>;
 ### Attribute
 ```js
 const p1 = <p id='large'>foo</p>;
+const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'>;
 ```
