@@ -10,3 +10,15 @@ const h1 = <h1>Hello world</h1>;
 const p1 = <p id='large'>foo</p>;
 const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'>;
 ```
+### Nested JSX
+A JSX expression that spans multiple lines must be wrapped in parentheses: `( )`
+```js
+const myDiv = (
+  <div>
+    <h1>Hello world</h1>
+  </div>
+);
+```
+
+
+
