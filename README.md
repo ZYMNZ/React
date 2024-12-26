@@ -19,6 +19,13 @@ const myDiv = (
   </div>
 );
 ```
-
-
+#### JSX expression must have exactly _ONE_ outermost element
+```js
+const paragraphs = (
+  <div id="i-am-the-outermost-element">
+    <p>I am a paragraph.</p>
+    <p>I, too, am a paragraph.</p>
+  </div>
+);
+```
 
