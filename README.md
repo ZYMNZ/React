@@ -28,4 +28,14 @@ const paragraphs = (
   </div>
 );
 ```
+### Rendering Code
+To _render_ a JSX expression means to make it _appear_ on screen.
+```js
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
+// Copy code here:
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<h1>Hello world</h1>);
+```
