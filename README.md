@@ -41,8 +41,12 @@ root.render(<h1>Hello world</h1>);
 <hr>
 
 ```js
+//old way
 var React = require("react");
 var ReactDOM = require("react-dom");
+//new way
+import React from "react";
+import ReactDOM  from "react-dom";
 
 ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 ```
