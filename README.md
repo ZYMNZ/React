@@ -38,5 +38,18 @@ const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(<h1>Hello world</h1>);
 ```
+<hr>
+
+```js
+var React = require("react");
+var ReactDOM = require("react-dom");
+
+ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
+```
+> ReactDOM.render(WHAT TO SHOW, WHERE TO SHOW IT,we can a callback function to tell us when it's completed); <br>
+> 'root' is main div where all the react code gets implemented <br>
+> we are displaying a ```h1``` inside the #root div
+
+<img width="50%" height="182" alt="image" src="https://github.com/user-attachments/assets/2260758b-154e-42ae-9f15-ae80b34b9c52" />
 
 
