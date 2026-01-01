@@ -56,4 +56,7 @@ ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 
 <img width="50%" height="182" alt="image" src="https://github.com/user-attachments/assets/2260758b-154e-42ae-9f15-ae80b34b9c52" />
 
+>Note: Inside the JS modul there is a Javascript compiler called "Babel". Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. <br>
+<strong>Basucally saying: The same code can also work on older website versions! This works because it rewrites JSX as plain old javascript.</strong>
+
 
