@@ -60,3 +60,4 @@ ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 <strong>Basucally saying: The same code can also work on older website versions! This works because it rewrites JSX as plain old javascript.</strong>
 
 
+
