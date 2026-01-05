@@ -74,8 +74,7 @@ ReactDOM.render(<h1>Hello {fName + " " + "lName"}</h1>, document.getElementById(
 ReactDOM.render(<h1>Hello {`${fName}` `${lName}`}</h1>, document.getElementById("root")); //string interpolation
 ```
 #### CSS
-> When using `style` attribute within HTML in react, it is slighty different regarding the naming scheme. In react we use the Javascript attribute names!
-
+> When using attributes within HTML in react, it is slighty different regarding the naming scheme. In react we use the Javascript attribute names!
 <br>
 Regular HTML <br>
 <img width="45%" height="45" alt="image" src="https://github.com/user-attachments/assets/7e00b54d-895d-4bc6-a042-22a3fcb49cc1" />  <br>
@@ -88,6 +87,41 @@ HTML attributes in React <br>
 
 <img width="50%" height="42" alt="image" src="https://github.com/user-attachments/assets/ab344db6-3ce1-462d-bc64-5d0ffdc1eb2c" />
 
+<br><br>
+
 The closing of the `img` tag matters in React, without the website will crash. <br>
-<img width="200" height="41" alt="image" src="https://github.com/user-attachments/assets/b89618d8-3ba9-477e-a08b-1cacad295a16" />
+<img width="200" height="41" alt="image" src="https://github.com/user-attachments/assets/b89618d8-3ba9-477e-a08b-1cacad295a16" /> 
+
+<br>
+We can add parameters to an image: <br>
+<img width="462" height="38" alt="image" src="https://github.com/user-attachments/assets/214290ce-95c7-40a1-b965-76aa4c3f5ae5" />
+
+<br><br>
+
+**Using the style property:**
+
+Javascript Object: <br>
+<img width="15%" height="15%" alt="image" src="https://github.com/user-attachments/assets/b496aa4f-0815-4909-a0fd-23e3ed494c50" />
+
+> We will be using the JS object in the `style` attribute
+
+<br>
+<img width="45%" height="320" alt="image" src="https://github.com/user-attachments/assets/52331b41-86e8-4660-a941-21fea7a845eb" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
