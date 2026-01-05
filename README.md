@@ -64,6 +64,8 @@ ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 <hr>
 
 ### Syntax
+>Variable: Camel casing
+
 ```js
 // using a variable 
 const name = "Conan";
@@ -112,7 +114,8 @@ Javascript Object: <br>
 One of the biggest advantages of using ***inline styling*** is that you can update it at anytime without touching the style property! <br>
 <img width="408" height="62" alt="image" src="https://github.com/user-attachments/assets/bf44a726-b7e7-4f8c-bb27-1a6050bd9385" />
 
-
+### React Components
+> Function's name: Pascal casing
 
 
 
