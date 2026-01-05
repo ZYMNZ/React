@@ -55,9 +55,26 @@ ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 > we are displaying a ```h1``` inside the #root div
 
 <img width="50%" height="182" alt="image" src="https://github.com/user-attachments/assets/2260758b-154e-42ae-9f15-ae80b34b9c52" />
+<br>
+<br>
 
 >Note: Inside the JS modul there is a Javascript compiler called "Babel". Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. <br>
 <strong>Basucally saying: The same code can also work on older website versions! This works because it rewrites JSX as plain old javascript.</strong>
 
+<hr>
 
+### Syntax
+```js
+// using a variable 
+const name = "Conan";
+const fName = "conan"; 
+const lName = "edugawa"; 
+ReactDOM.render(<h1>Hello {name}</h1>, document.getElementById("root"));
+ReactDOM.render(<h1>Hello {fName + " " + "lName"}</h1>, document.getElementById("root"));
+ReactDOM.render(<h1>Hello {`${fName}` `${lName}`}</h1>, document.getElementById("root")); //string interpolation
+```
+#### CSS
+> When using `style` attribute within the HTML in react, it is slighty different regarding the naming scheme. In react we use the Javascript attribute names!
 
+<br>
+For example: 
