@@ -68,13 +68,26 @@ ReactDOM.render(<h1>Hello meows</h1>, document.getElementById("root"));
 // using a variable 
 const name = "Conan";
 const fName = "conan"; 
-const lName = "edugawa"; 
+const lName = "edogawa"; 
 ReactDOM.render(<h1>Hello {name}</h1>, document.getElementById("root"));
 ReactDOM.render(<h1>Hello {fName + " " + "lName"}</h1>, document.getElementById("root"));
 ReactDOM.render(<h1>Hello {`${fName}` `${lName}`}</h1>, document.getElementById("root")); //string interpolation
 ```
 #### CSS
-> When using `style` attribute within the HTML in react, it is slighty different regarding the naming scheme. In react we use the Javascript attribute names!
+> When using `style` attribute within HTML in react, it is slighty different regarding the naming scheme. In react we use the Javascript attribute names!
 
 <br>
-For example: 
+Regular HTML <br>
+<img width="45%" height="45" alt="image" src="https://github.com/user-attachments/assets/7e00b54d-895d-4bc6-a042-22a3fcb49cc1" />  <br>
+HTML attributes in React <br>
+<img width="45%" height="86" alt="image" src="https://github.com/user-attachments/assets/a59da8ff-0374-4104-878e-9bca9e79d502" />
+
+<br>
+
+[HTML Global Attributes](https://www.w3schools.com/tags/ref_standardattributes.asp)
+
+<img width="50%" height="42" alt="image" src="https://github.com/user-attachments/assets/ab344db6-3ce1-462d-bc64-5d0ffdc1eb2c" />
+
+The closing of the `img` tag matters in React, without the website will crash. <br>
+<img width="200" height="41" alt="image" src="https://github.com/user-attachments/assets/b89618d8-3ba9-477e-a08b-1cacad295a16" />
+
