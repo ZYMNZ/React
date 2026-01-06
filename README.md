@@ -114,6 +114,8 @@ Javascript Object: <br>
 One of the biggest advantages of using ***inline styling*** is that you can update it at anytime without touching the style property! <br>
 <img width="408" height="62" alt="image" src="https://github.com/user-attachments/assets/bf44a726-b7e7-4f8c-bb27-1a6050bd9385" />
 
+<hr>
+
 ### React Components
 [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
 
@@ -134,8 +136,10 @@ We import the file that has the custom tag, and we use an orphan tag when using 
 > Note: in the new version of react, we dont need to include the extension of the file
 
 <img width="45%" height="158" alt="image" src="https://github.com/user-attachments/assets/c3420cb8-bcb7-477d-bfa3-88977e7f9538" />
-
-
+<br>
+<br>
+Usually in the index.js file is just the `App` file getting rendered. The App file contains all the custome tags. <br>
+<img width="45%" height="318" alt="image" src="https://github.com/user-attachments/assets/8a8c9b45-f70c-40d1-9ed1-3c010603d681" />
 
 
 
