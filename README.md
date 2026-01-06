@@ -141,8 +141,11 @@ We import the file that has the custom tag, and we use an orphan tag when using 
 
 Usually in the index.js file is just the `App` file getting rendered. The App file contains all the custome tags. <br>
 
-<img width="45%" height="318" alt="image" src="https://github.com/user-attachments/assets/8a8c9b45-f70c-40d1-9ed1-3c010603d681" />
+<img width="40%" height="318" alt="image" src="https://github.com/user-attachments/assets/8a8c9b45-f70c-40d1-9ed1-3c010603d681" />
 
+Inside the APP file: <br>
+
+<img width="40%" height="564" alt="image" src="https://github.com/user-attachments/assets/e9e15d99-cb01-4ce1-9166-03ad8c7fe0bc" />
 
 
 
