@@ -147,6 +147,10 @@ Inside the APP file: <br>
 
 <img width="40%" height="564" alt="image" src="https://github.com/user-attachments/assets/e9e15d99-cb01-4ce1-9166-03ad8c7fe0bc" />
 
+## Import/Export
+
+When importing the `default` function name from another file, we can custoimize the name. <br>
+<img width="334" height="157" alt="image" src="https://github.com/user-attachments/assets/08a328e9-d000-44b6-8624-2128b3b971eb" />
 
 
 
