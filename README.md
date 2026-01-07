@@ -157,6 +157,9 @@ Inside the APP file: <br>
 
 > we can use the wildcard(gets imported as an _Object_) as well but it's very **_discouraged_** <br>
 
+<img width="45%" height="78" alt="image" src="https://github.com/user-attachments/assets/703c68da-b30e-41ee-8ed7-28e98ee92708" />
+
+
 ```js
 import * as pi from "./math.js";
 //
