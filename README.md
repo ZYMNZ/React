@@ -155,7 +155,7 @@ Inside the APP file: <br>
 <img width="45%" height="306" alt="image" src="https://github.com/user-attachments/assets/bbfbda7a-c280-4fb0-8f13-fd2aece12336" />
 <br>
 
-> we can use the wildcard as well but it's very **discouraged** <br>
+> we can use the wildcard as well but it's very **_discouraged_** <br>
 
 ```js
 import * as pi from "./math.js";
