@@ -155,10 +155,19 @@ Inside the APP file: <br>
 <img width="45%" height="306" alt="image" src="https://github.com/user-attachments/assets/bbfbda7a-c280-4fb0-8f13-fd2aece12336" />
 <br>
 
-> we can use the wildcard as well but it's very **_discouraged_** <br>
+> we can use the wildcard(gets imported as an _Object_) as well but it's very **_discouraged_** <br>
 
 ```js
 import * as pi from "./math.js";
+//
+ReactDOM.render(
+  <ul>
+    <li>{pi.default}</li>
+    <li>{pi.doublePi()}</li>
+    <li>{pi.triplePi()}</li>
+  </ul>,
+  document.getElementById("root")
+);
 ```
 
 [Node.js require vs ES6 import/export](https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export)
