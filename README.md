@@ -154,6 +154,7 @@ Inside the APP file: <br>
 
 <img width="45%" height="306" alt="image" src="https://github.com/user-attachments/assets/bbfbda7a-c280-4fb0-8f13-fd2aece12336" />
 <br>
+
 [Node.js require vs ES6 import/export](https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export)
 
 
