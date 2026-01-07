@@ -149,8 +149,10 @@ Inside the APP file: <br>
 
 ## Import/Export
 
-When importing the `default` function name from another file, we can custoimize the name. <br>
-<img width="334" height="157" alt="image" src="https://github.com/user-attachments/assets/08a328e9-d000-44b6-8624-2128b3b971eb" />
+- When importing the `default` function name from another file, we can custoimize the name. <br>
+- When exporting a `list of functions`, we use the same names when importing them while adding a parenthesis to get their return value. <br>
+
+<img width="45%" height="306" alt="image" src="https://github.com/user-attachments/assets/bbfbda7a-c280-4fb0-8f13-fd2aece12336" />
 
 
 
