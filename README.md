@@ -132,6 +132,14 @@ function Heading() {
 // we use `default` because when a file's primary purpose is to export a single main component
 export default Heading;
 ```
+**Key Characteristics of Default ExportsOne Per File:** <br>
+- A JavaScript or React file can have only one default export.
+- Flexible Naming: When importing a default export, you can name it whatever you want in the receiving file. The name does not have to match the original function name.
+- Clean Syntax: Imports do not require curly braces, keeping the code visually concise.
+
+<br>
+<br>
+
 We import the file that has the custom tag, and we use an orphan tag when using it: <br>
 > Note: in the new version of react, we dont need to include the extension of the file
 
