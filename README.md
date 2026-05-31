@@ -183,3 +183,11 @@ ReactDOM.render(
 
 [Node.js require vs ES6 import/export](https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export)
 
+### Props
+
+Props (short for *properties*) are **read-only** values passed from a parent component to a child component as key-value pairs.
+<br>
+
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/1f26ca5e-1e04-4413-a0e0-53a70c1d6f2b" />
+<img width="41.5%" alt="image" src="https://github.com/user-attachments/assets/075867ea-22b8-44fe-94c0-07d6e29e2ef3" />
+
